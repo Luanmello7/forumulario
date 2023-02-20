@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários de cadastro</h1>
+    <form>
+        <label for="nome" >Nome</label>
+        <input id="nome" type ="text" placeholder="Digite seu nome"/>
+        <br/>
+        <label for="email">Email</label>
+        <input id="email" type ="text" placeholder="Digite seu email">
+        <br/>
+        <label for="tel">Telefone</label>
+        <input id="tel" type="tel" placeholder="Digite seu telefone"/>
+        <br/>
+        <label >Idade</label>
+        <input type ="number" max="100" min="0" step="2"/> <br/>
+        <p>
+            Qual veiculo você prefere?
+        </p>
+        <input type="radio" name="favorito" id="favorito-carro"/> <label for="favorito-carro" >Carro</label>
+        <input type="radio" name="favorito" id="favorito-moto"/> <label for="favorito-moto" >Moto</label>
+        <input type="radio" name="favorito" id="favorito-ambos"/> <label for="favorito-ambos" >Ambos</label>
+        <br/>
+        <br/>
+        <label>Qual o tipo de montadora você prefere?</label>
+        <select>
+            <option>Nacional</option>
+            <option>Importado</option>
+            <option>Não Importa</option>
+        </select>
+        <br/>
+        <br/>
+        <label>Cor do veiculo</label>
+        <input type="color"/>
+        <br/>
+        <br/>
+        <label >Mostre um exmplo</label> <br/>
+        <input type ="file"/>
+        <br/> <br/>
+        <label for="checkbox" >Confirmo minhas escolhas</label> <input type ="checkbox" id="checkbox-termos" /> 
+        <br/>
+        <br/>
+        <label>Justifique sua resposta:</label> <br/> 
+        <textarea></textarea>
+        <br/>
+        <button type="Submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        
+    </form>
+</body>
+</html>
